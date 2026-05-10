@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Example Project",
+    "shortDescription": "A brief description of the example project.",
+    "technologies": ["Python", "TensorFlow"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "https://example.com/demo",
+    "repoUrl": "https://github.com/username/example-project",
+    "thumbnail": "assets/img/projects/project1.svg"
+  }
+]
