@@ -104,6 +104,27 @@ body {
     color: #000;
 }
 
+/* Skill grid styling */
+.skills-category {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+.skills-category h3 {
+    margin-bottom: var(--spacing-unit);
+    font-weight: 600;
+    color: var(--color-accent);
+}
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-unit);
+    justify-content: flex-start;
+}
+.skill-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .site-header {
@@ -117,6 +138,10 @@ body {
     .section {
         padding: calc(var(--spacing-unit) * 3) var(--spacing-unit);
     }
+    .skill-icon {
+        width: 36px;
+        height: 36px;
+    }
 }
 
 /* Link colors for other sections */
@@ -126,7 +151,7 @@ a {
 }
 
 a:hover,
-a:focus {
+.a:focus {
     color: #fff;
     text-decoration: none;
 }
