@@ -1,11 +1,65 @@
 [
   {
-    "title": "Example Project",
-    "shortDescription": "A brief description of the example project.",
-    "technologies": ["Python", "TensorFlow"],
+    "title": "Berlin Property Intelligence",
+    "shortDescription": "Predict Berlin property prices using XGBoost and Random Forest on 57,000+ data points, achieving R²=0.87.",
+    "technologies": ["Python", "XGBoost", "Random Forest", "GeoPandas"],
     "category": "Machine Learning",
-    "liveDemoUrl": "https://example.com/demo",
-    "repoUrl": "https://github.com/username/example-project",
-    "thumbnail": "assets/img/projects/project1.svg"
+    "liveDemoUrl": "#",
+    "repoUrl": "https://github.com/Akakinad/berlin-property-intelligence",
+    "thumbnail": "assets/img/projects/berlin-property.svg"
+  },
+  {
+    "title": "TravelTide Customer Segmentation",
+    "shortDescription": "Segment travelers into 5 groups using K‑Means and PCA, visualized with Streamlit.",
+    "technologies": ["Python", "K-Means", "PCA", "SQL", "Streamlit"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "https://traveltide-customer-segmentation-ak.streamlit.app",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/traveltide.svg"
+  },
+  {
+    "title": "Currency Forecasting",
+    "shortDescription": "Forecast SGD/USD and CNY/USD exchange rates with LSTM ensemble models.",
+    "technologies": ["Python", "LSTM", "Ensemble Models", "Streamlit"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "https://currency-forecasting-ak.streamlit.app",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/currency-forecast.svg"
+  },
+  {
+    "title": "Restaurant Sentiment Analysis",
+    "shortDescription": "Classify restaurant reviews sentiment with SVM, achieving 84.5% accuracy.",
+    "technologies": ["Python", "SVM", "NLP", "Streamlit"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "https://restaurant-sentiment-analysis-ak.streamlit.app",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/restaurant-sentiment.svg"
+  },
+  {
+    "title": "E‑commerce Delivery Prediction",
+    "shortDescription": "Predict delivery success using Random Forest, achieving 67% recall.",
+    "technologies": ["Python", "Random Forest", "Streamlit"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "https://ecommerce-delivery-prediction-ak.streamlit.app",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/ecommerce-delivery.svg"
+  },
+  {
+    "title": "Flower Classification",
+    "shortDescription": "Classify flower species with MobileNetV2 (53.93% accuracy), containerized with Docker and deployed on Render.",
+    "technologies": ["Python", "MobileNetV2", "Docker", "Render"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "#",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/flower-classification.svg"
+  },
+  {
+    "title": "Car Price Prediction",
+    "shortDescription": "Predict used car prices with XGBoost (93.2% accuracy) and expose via Flask API.",
+    "technologies": ["Python", "XGBoost", "Flask"],
+    "category": "Machine Learning",
+    "liveDemoUrl": "#",
+    "repoUrl": "#",
+    "thumbnail": "assets/img/projects/car-price.svg"
   }
 ]
