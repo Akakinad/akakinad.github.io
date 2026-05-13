@@ -116,16 +116,21 @@ body {
     font-weight: 600;
     color: var(--color-accent);
 }
-.skill-grid {
+/* New badge styles */
+.skill-badges {
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-unit);
-    justify-content: flex-start;
+    margin-top: var(--spacing-unit);
 }
-.skill-icon {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--color-accent);
+    border-radius: 12px;
+    background: rgba(0, 219, 255, 0.1);
+    color: var(--color-accent);
+    font-size: 0.9rem;
 }
 
 /* Project card styling */
